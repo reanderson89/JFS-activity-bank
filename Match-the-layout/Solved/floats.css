@@ -17,13 +17,12 @@ header {
   padding: 20px;
   margin-bottom: 20px;
   color: black;
-  background-color: orange;
+  background-color: lightblue;
 }
 
 section {
   padding: 20px;
   margin-bottom: 20px;
-  background-color: orange;
 }
 
 #left {
