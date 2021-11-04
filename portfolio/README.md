@@ -24,8 +24,15 @@ For this activity you are going to use HTML, Bootstrap, and possibly some custom
 3. Create your starter html code
 4. Link bootstrap
     - Go to [bootstraps webpage](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
-    - Grab their CSS link, or copy it from here:  `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">`
+    - Grab their CSS link, or copy it from here:  
+    ```html
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    ```
     - Add the link to the `<head>` of your index.html, and all other html files you will use bootstrap in.
+    - Also grab the Javascript bundle and add it to your page directly above your closing body tag `</body>`
+    ```html
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    ```
 5. Make sure to set up your page using the proper grid of: container first, rows inside the container, cols inside the rows.
     - Here is an example 
     ```html
