@@ -1,5 +1,5 @@
 // Fill in the body of each function with the code required
-// One at a time, uncomment the line that starts with: var 
+// One at a time, uncomment the line that starts with: let 
 // Don't forget to name your variable
 
 
