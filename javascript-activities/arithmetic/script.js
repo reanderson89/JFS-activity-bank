@@ -3,17 +3,14 @@
 // Don't forget to name your variable
 
 
-// THIS SHOULD ADD NUM1 FROM NUM2 
-// var  = function(num1, num2) {};
+// THIS SHOULD ADD
+// let  = 1 + 1;
 
 // THIS SHOULD SUBTRACT NUM1 FROM NUM2 
-// var  = function(num1, num2) {};
+// let  = 3 - 1;
 
 // THIS SHOULD MULTIPLY NUM1 & NUM2 
-// var  = function(num1, num2) {};
+// let  = 1 * 3;
 
 // THIS SHOULD DIVIDE NUM1 FROM NUM2 
-// var  = function(num1, num2) {};
-
-// THIS SHOULD FIND THE REMAINDER OF NUM1 DIVIDED FROM NUM2 
-// var  = function(num1, num2) {};
+// let  = 8 / 2;
