@@ -10,7 +10,10 @@
 // var  = function(num1, num2) {};
 
 // THIS SHOULD MULTIPLY NUM1 & NUM2 
-// var multiply = function(num1, num2) {};
+// var  = function(num1, num2) {};
 
 // THIS SHOULD DIVIDE NUM1 FROM NUM2 
-// var divide = function(num1, num2) {};
+// var  = function(num1, num2) {};
+
+// THIS SHOULD FIND THE REMAINDER OF NUM1 DIVIDED FROM NUM2 
+// var  = function(num1, num2) {};
