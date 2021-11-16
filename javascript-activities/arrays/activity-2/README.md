@@ -11,6 +11,4 @@ Please READ CAREFULLY and follow the steps.
   -Display in the console the second movie in the first list.
 
 
-  ** EXTRA CREDIT **
-
-  7) Combine the two arrays created in step 6. 
+ 
