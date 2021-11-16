@@ -8,13 +8,19 @@
 
 
 // function that subtracts
+const myFunc = function(a,b){
+    return a-b;
+}
 
 
 
 
 // function that multiplies
+function multiply(a,b){
+    return a*b;
+}
 
-
+var 
 
 
 // function that divides
