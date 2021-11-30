@@ -1,9 +1,10 @@
 class AutoMobile {
+    
     constructor(type, numOfWheels, color){
-        this.type = type;
-        this.numOfWheels = numOfWheels;
-        this.color = color;
-        this.isWorking = true;
+        this._type = type;
+        this._numOfWheels = numOfWheels;
+        this._color = color;
+        this._isWorking = true;
     }
 
     get type(){
