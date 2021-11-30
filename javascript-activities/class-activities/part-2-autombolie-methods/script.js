@@ -14,3 +14,5 @@ class AutoMobile {
 
 }
 
+// console.log a few of the getter methods and also run the method that changes isWorking to false
+
