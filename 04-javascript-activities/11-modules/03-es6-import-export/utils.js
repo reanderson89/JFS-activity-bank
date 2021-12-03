@@ -13,12 +13,16 @@ for(let i = 0; i < stringArray.length; i++){
         newStringArray.push(stringArray[i]);
     }
 }
-console.log(newStringArray)
+let newStr = newStringArray.join("");
+console.log(newStr);
 }
 
-// BONUS: create your own function that does whatever you want and add it to your export object then use it in your script.js
+// create your own function that does whatever you want and add it to your export object then use it in your script.js
 
 
 
 // create your export down here
+
+
+
 
