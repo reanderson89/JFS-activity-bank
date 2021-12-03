@@ -1,4 +1,4 @@
-// require the function from your utils.js file
+// require the function from your utils.js file, here is documentation: https://nodejs.org/api/modules.html
 
 // create an array of strings
 
