@@ -22,7 +22,7 @@ console.log(newStr);
 
 
 // create your export down here
-
+export{capitalizeEveryOtherCharacter}
 
 
 
