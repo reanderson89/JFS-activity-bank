@@ -23,8 +23,16 @@ let denverBootCamp = {
                 }
             }
         }
-
+    },
+    students: {
+        name: 'Renan',
+        city: 'Unknow',
+        catchPhrase () {
+            console.log('N/a');
+        }
     }
 }
 
-
+console.log(denverBootCamp);
+denverBootCamp.students.catchPhrase = "";
+console.log(denverBootCamp);
