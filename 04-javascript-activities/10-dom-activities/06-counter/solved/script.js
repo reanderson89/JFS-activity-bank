@@ -7,14 +7,30 @@ function setCounter(){
   countElement.textContent = count;
 }
 
-incrementElement.addEventListener('click', function(){
+// This function is being called in the html as an "onclick"
+const increment = () => {
   count++;
   setCounter()
-})
+}
 
-decrementElement.addEventListener('click', function(){
+// This function is being called in the html as an "onclick"
+const decrement = () => {
   if(count > 0){
-  count--;
-  setCounter()
+    count--;
+    setCounter()
   }
-})
+}
+
+// incrementElement.addEventListener('click', function(){
+//   count++;
+//   setCounter()
+// })
+
+// decrementElement.addEventListener('click', function(){
+//   if(count > 0){
+//   count--;
+//   setCounter()
+//   }
+// })
+
+console.log(window);
