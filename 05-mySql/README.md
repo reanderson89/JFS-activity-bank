@@ -14,7 +14,7 @@ W3 schools SQL tutorial and reference - https://www.w3schools.com/sql/default.as
 
     - The teams table should have the following columns
     - id (should not be null and should auto increment)
-    - name (text)
+    - name (text, not null)
     - city (varchar)
     - number_of_players (integer)
     - budget (real)
@@ -28,22 +28,44 @@ W3 schools SQL tutorial and reference - https://www.w3schools.com/sql/default.as
 
 -- Step 7: Create "player" and "drafted" tables --
 
+    - "player" table should have the following columns
+        - id (not null and auto increments)
+        - name (text, not null)
+        - age (integer)
+        - years_of_experience (integer)
+        - rating (integer)
+        - PRIMARY KEY (id)
+
+    - "drafted" table should have the following columns
+        - id (not null and auto increments)
+        - player_id (integer, not null)
+        - team_id (integer, not null)
+        - pick_number (integer, not null)
+        - PRIMARY KEY (id)
+
+
 -- Step 8: Insert values to "player" and "drafted" tables --
 
 -- Step 9: Check that the tables exist and the values are inserted correctly. Then delete those queries. --
 
--- Step 10: Select the "teams" from the drafted table, show each team only once in ascending order. --
-    Joins - https://www.w3schools.com/sql/sql_join.asp
+-- Step 10: Select the team_id from the drafted table, show each team_id only once in ascending order. --
     Order by - https://www.w3schools.com/sql/sql_orderby.asp
-    Group by - https://www.w3schools.com/sql/sql_groupby.asp
+    (keywords to use would be "DISTINCT" and "ASC")
+
 
 -- Step 11: Select the players that have a rating lower than 20. --
     Where - https://www.w3schools.com/sql/sql_where.asp
 
--- Step 12: Combine the "player" table with the "drafted" table. --
+-- Step 12: Combine the "player" table with the "drafted" table and display all of the columns. --
 
 -- Step 13: Combine the "player" table with the "drafted" table and check for any players who did not get drafted --
     Left Join - https://www.w3schools.com/sql/sql_join_left.asp
 
--- Step 14: Make a query that joins all three tables and displays the players name, years_of_experience, and rating. The pick_number from the drafted table and the name from the teams table.  --
+-- Step 14: Make a query that joins all three tables and displays the...
+    - players name, 
+    - years_of_experience,
+    - rating,
+    - The pick_number from the drafted table,
+    - the name from the teams table.  --
+    
     Google - https://www.google.com
