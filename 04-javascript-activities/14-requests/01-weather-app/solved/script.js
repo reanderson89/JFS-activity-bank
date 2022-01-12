@@ -5,11 +5,11 @@ const cityList = document.getElementById("bonus-buttons");
 const submitBtn = document.getElementById("submit-btn");
 
 const makeRequest = async (userInput) => {
-  console.log(userInput);
+//   console.log(userInput);
   let response = await fetch(
     `http://api.weatherapi.com/v1/current.json?key=46e1df487c204aaea80231816211312&q=${userInput}`
   );
-
+    console.log(response);
   if (response.ok) {
     let data = await response.json();
     renderWeather(data);
