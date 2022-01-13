@@ -81,8 +81,3 @@ SELECT * FROM player;
 SELECT * FROM drafted;
 -- Step 8: Combine the player table with the drafted table. --
 -- Step __ : Make a query that joins all three tables and displays with players name, years_of_experience, and rating. The pick_number from the drafted table and the name from the teams table.  --
-SELECT player.name,years_of_experience,rating,pick_number,teams.name, city FROM player
-JOIN drafted
-ON player.id = drafted.player_id
-JOIN teams
-ON teams.id = player.id;
