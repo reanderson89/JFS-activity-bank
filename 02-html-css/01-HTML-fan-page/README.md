@@ -1,7 +1,7 @@
 # Create-A-Fan-Page
 
-For this activity you are tasked to build a fan page for your favorite music artist. You can only use HTML, no CSS or JavaScript.
-Start by creating a new html document in your "sandbox" folder called fan-page.html
+  - For this activity you are tasked to build a fan page for your favorite music artist. You can only use HTML, no CSS or JavaScript.
+  - Start by creating a new html document in your "sandbox" folder called fan-page.html
 
 
 ## Step 1 Requirements: (Build the structure and add content)
