@@ -4,7 +4,6 @@ For this activity you are tasked to build a fan page for your favorite music art
 
 
 ## Step 1 Requirements: (Build the structure and add content)
-  - You must use semantic elements to organize your HTML, NO DIV TAGS. Use "section" tags if you need a filler.
   - Your page must have navigation links to your artists web page.
   - It must have 2 different lists one ordered and one unordered.
   - It must contain at least 3 images that are relevant to your artist.
